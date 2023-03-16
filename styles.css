@@ -1,0 +1,53 @@
+p.HOME_head{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(75, 75, 75);
+    text-align: center;
+}
+
+p.HOME {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 0px rgb(75, 75, 75);
+    text-align: center;
+}
+
+p.GAME_head{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(75, 75, 75);
+    text-align: center;
+}
+p.GAME {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+p.DOWNLOAD {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+pre.TEAM {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+.images{
+    position: relative;
+    flex: 50%;
+    padding: 50px 75px 75px 75px;
+}
+p.CONTACT {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 1.25;
+}
+

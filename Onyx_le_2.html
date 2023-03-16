@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Crusade Of The Abyss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="w3.css">
+</head>
+<style>
+body{
+  background-image: url('the_abyss.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+
+
+<div class="w3-container w3-teal">
+    <h1>Onyx Studio</h1>
+    <button class="w3-bar-item w3-button" onclick="openTab('HOME')">HOME</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('GAME')">GAME</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('DOWNLOAD')">DOWNLOAD</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('TEAM')">TEAM</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('GALLERY')">GALLERY</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('CONTACT')">CONTACT</button>
+</div>
+
+<div id="HOME" class="w3-container tab">
+    <p class="HOME_head">Crusade of the abyss</p>
+<p class="HOME">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui velit.<br>
+    Nam varius purus ligula. Fusce vitae nulla sed justo varius hendrerit sit 
+    amet eu quam.<br>Sed hendrerit vehicula nulla sit amet commodo. 
+    Mauris in finibus neque.<br>Sed congue vulputate auctor.</p>
+  </div>
+  
+  <div id="GAME" class="w3-container tab" style="display:none">
+    <p class="GAME_head">A mind-blowing adventure!</p>
+    <p class="GAME">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui velit.
+        Nam varius purus ligula. Fusce vitae nulla sed justo varius hendrerit sit
+        amet eu quam. Sed hendrerit vehicula nulla sit amet commodo. Mauris in
+        finibus neque. Sed congue vulputate auctor. Nam in convallis mi, non faucibus
+        tortor. Aliquam ut urna vitae magna sagittis varius sit amet a mauris.<br><br>
+        Cras lacinia, turpis a ullamcorper aliquet, turpis metus mattis dui, a
+        finibus diam eros in lectus. Donec vulputate urna at ante pretium lacinia.
+        Proin vitae ipsum quis eros laoreet fringilla. Donec ut erat posuere lectus aliquam
+        congue sit amet at risus.<br><br><br>
+
+        Quisque id tempus nisi. Cras egestas faucibus urna, nec fringilla quam aliquam
+        vitae. Etiam id elit in quam lobortis semper. Vestibulum vel nulla vel ante
+        mollis condimentum. Nam blandit metus a efficitur semper. Maecenas semper imperdiet
+        hendrerit. <br><br>Vivamus quis fermentum leo, quis faucibus metus. Mauris nec est dui.
+        Nulla nec dignissim dolor. Maecenas in posuere velit, non laoreet urna. Proin nec
+        consequat justo. Aenean egestas nisl justo, vitae ultricies mauris ultrices quis.<br><br>
+        Curabitur nisi urna, sagittis quis leo quis, ultricies varius dolor. Phasellus
+        ante nisi, ullamcorper ut pulvinar at, mollis non risus.</p> 
+  </div>
+  
+  <div id="DOWNLOAD" class="w3-container tab" style="display:none">
+    <p class="DOWNLOAD"><a href="https://drive.google.com/drive/u/4/folders/0AM0aZUtEg4tFUk9PVA">
+        Lien vers le téléchargement</a></p>
+  </div>
+  
+  <div id="TEAM" class="w3-container tab" style="display:none">
+    <pre class="TEAM">Cyrian Savary - Lead project      Étienne Bertrand - Programmeur<br>
+        Karma Grandpaul - Lead tech     Arthur Chassaing - Programmeur<br>
+        Théo Boros - Lead gameplay      Alexandre Gouveia - Programmeur</pre>
+  </div>  
+
+  <div id="GALLERY" class="w3-container tab" style="display:none">
+    <div class="images">
+    <img src="background.png" alt="Background of the title screen" width="576" height="324">
+    <img src="inside_tavern.png" alt="Inside of the tavern" width="460" height="320">
+    <img src="village.png" alt="Top view of the village" width="460" height="320">
+  </div>
+  </div>  
+
+  <div id="CONTACT" class="w3-container tab" style="display:none">
+    <p class="CONTACT">agrandpaul@gaming.tech<br><br>csavary@gaming.tech<br><br>
+    tboros@gaming.tech<br><br>ebertrand@gaming.tech<br><br>achassaing@gaming.tech
+    <br><br>agouveia@gaming.tech</p>
+  </div>
+
+  <script>
+  function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+</script>
+
+
+</body>
+</html>
