@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Crusade Of The Abyss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="w3.css">
+</head>
+<style>
+body{
+  background-image: url('the_abyss.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+
+
+<div class="w3-container w3-teal">
+    <h1>Onyx Studio</h1>
+    <button class="w3-bar-item w3-button" onclick="openTab('HOME')">HOME</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('GAME')">GAME</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('DOWNLOAD')">DOWNLOAD</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('TEAM')">TEAM</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('GALLERY')">GALLERY</button>
+    <button class="w3-bar-item w3-button" onclick="openTab('CONTACT')">CONTACT</button>
+</div>
+
+<div id="HOME" class="w3-container tab">
+    <p class="HOME_head">Crusade of the abyss</p>
+<p class="HOME">Venez découvrir ce fabuleux monde rempli de mystères à découvrir!
+  Explorez les donjons, combattez les monstres, et cherchez les trésors cachés dans une
+   aventure exaltante!
+
+</p>
+  </div>
+  
+  <div id="GAME" class="w3-container tab" style="display:none">
+    <p class="GAME_head">Une aventure époustouflante!</p>
+    <p class="GAME"><span>3 classes à jouer</span><br><br>
+
+      Choisissez entre 3 différentes classes possédant chacune leur propre manière de jouer 
+      et leurs propres atouts!<br><br>
+      LE GUERRIER : Un combattant au corps-à-corps exemplaire, sachant manier sa lame 
+      tranchante comme personne<br><br>
+      L’ARCHER: Agile, rapide mais néanmoins batailleur, il est capable de percer 
+      les ennemis avec ses flèches à plus d’une dizaine de mètres<br><br>
+      LE MAGE: Guerrier avisé et sage, il maîtrise la magie et sait en tirer profit 
+      pour se débarasser des ennemis qui se mettent en travers de son chemin<br><br>
+      
+      <span>Une infinité de donjons à explorer</span><br><br>
+      Grâce à la génération procédurale, chaque aventure vous paraîtra totalement 
+      différente de la précédente! Explorez jusqu’à 5 biômes différents de 
+      donjons possédant chacun leur spécificités.<br><br>
+      
+      <span>Des dizaines d’ennemis à combattre</span><br><br>
+      Une multitude d’ennemis vous attends dans les donjons profonds. Des minces 
+      gobelins jusqu’aux énormes orcs, ils sont de toutes les formes et de 
+      toutes les couleurs mais une chose les rassemble: leur soif de sang!<br><br>
+      
+      <span>Des personnages attachants</span><br><br>
+      Il n’y a pas que le danger qui vous attends, mais aussi des rencontres! 
+      Parcourez le village, visitez la taverne, et peut-être trouverez-vous des 
+      amis qui pourraient vous aider dans votre aventure</p> 
+  </div>
+  
+  <div id="DOWNLOAD" class="w3-container tab" style="display:none">
+    <p class="DOWNLOAD"><a href="https://drive.google.com/drive/u/4/folders/0AM0aZUtEg4tFUk9PVA">
+        Lien vers le téléchargement</a></p>
+  </div>
+  
+  <div id="TEAM" class="w3-container tab" style="display:none">
+    <pre class="TEAM">Cyrian Savary - Lead project      Étienne Bertrand - Programmeur<br>
+        Karma Grandpaul - Lead tech     Arthur Chassaing - Programmeur<br>
+        Théo Boros - Lead gameplay      Alexandre Gouveia - Programmeur</pre>
+  </div>  
+
+  <div id="GALLERY" class="w3-container tab" style="display:none">
+    <div class="images">
+    <img src="background.png" alt="Background of the title screen" width="576" height="324">
+    <img src="inside_tavern.png" alt="Inside of the tavern" width="460" height="320">
+    <img src="village.png" alt="Top view of the village" width="460" height="320">
+  </div>
+  </div>  
+
+  <div id="CONTACT" class="w3-container tab" style="display:none">
+    <p class="CONTACT">agrandpaul@gaming.tech<br><br>csavary@gaming.tech<br><br>
+    tboros@gaming.tech<br><br>ebertrand@gaming.tech<br><br>achassaing@gaming.tech
+    <br><br>agouveia@gaming.tech</p>
+  </div>
+
+  <script>
+  function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+</script>
+
+
+</body>
+</html>
